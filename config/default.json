@@ -1,0 +1,6 @@
+{
+  "port": 3030,
+  "mongoUri" : "mongodb+srv://Pupkin:1q2w3e@nodeclaster.g5utz.mongodb.net/MyTasks?retryWrites=true&w=majority",
+  "jwtSecret": "gerasymenko react node"
+
+}
