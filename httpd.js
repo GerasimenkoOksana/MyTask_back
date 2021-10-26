@@ -6,6 +6,7 @@ const config = require("config")
 
 app.use(express.static(path.join(__dirname,"public")));
 app.use(cors());
+
 const multer = require("multer");
 app.use(multer(
     {dest: path.join(__dirname,"public/uploads")})
