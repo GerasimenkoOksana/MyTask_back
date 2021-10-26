@@ -19,8 +19,8 @@ router.put("/api/column", cColumn.put);
 router.delete("/api/column", cColumn.delete);
 
 const cAuth = require("./controllers/authController")
-router.post("api/auth/register", cAuth.register)
-router.post("api/auth/login", cAuth.login)
+router.post("/api/auth/register", cAuth.register)
+router.post("/api/auth/login", cAuth.login)
 
 module.exports = router;
 
